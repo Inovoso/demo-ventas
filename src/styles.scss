@@ -1,5 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
+// ed-grid variables
+$prototype: true;
+$dev-hover: false;
+$dev: false;
+// ed-grid import
+@import "~ed-grid/ed-grid";
+
 html,
 body {
   height: 100%;
