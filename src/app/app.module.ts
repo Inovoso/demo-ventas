@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { Chart, registerables } from 'chart.js';
+Chart.register(...registerables);
 
 @NgModule({
   declarations: [AppComponent],
